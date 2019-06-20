@@ -21,7 +21,9 @@
     "url": "https://github.com/smilee/proto-ui/issues"
   },
   "homepage": "https://github.com/smilee/proto-ui#readme",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "2.6.10"
+  },
   "devDependencies": {
     "eslint": "5.16.0",
     "eslint-config-standard": "12.0.0",
