@@ -2,12 +2,14 @@
 import ProtoImage from '../packages/image'
 import ProtoText from '../packages/text'
 import ProtoButton from '../packages/button'
+import ProtoBadge from '../packages/badge'
 
 // Organize imported components into an array
 const components = [
   ProtoImage,
   ProtoText,
-  ProtoButton
+  ProtoButton,
+  ProtoBadge
 ]
 
 // Declare install function executed by Vue.use()
