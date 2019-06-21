@@ -1,15 +1,15 @@
 // Import vue components
-import ProtoImage from '../packages/image'
-import ProtoText from '../packages/text'
-import ProtoButton from '../packages/button'
-import ProtoBadge from '../packages/badge'
+import Image from '../packages/image/index.js'
+import Text from '../packages/text/index.js'
+import Button from '../packages/button/index.js'
+import Badge from '../packages/badge/index.js'
 
 // Organize imported components into an array
 const components = [
-  ProtoImage,
-  ProtoText,
-  ProtoButton,
-  ProtoBadge
+  Image,
+  Text,
+  Button,
+  Badge
 ]
 
 // Declare install function executed by Vue.use()
@@ -38,4 +38,9 @@ if (GlobalVue) {
 }
 
 // To allow use as module (npm/webpack/etc.) export components
-export default { ...components }
+export default {
+  Image,
+  Text,
+  Button,
+  Badge
+}
