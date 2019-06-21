@@ -1,11 +1,9 @@
 {
   "name": "proto-ui",
-  "version": "0.2.0",
+  "version": "1.0.0-beta.0",
   "description": "Prototype UI",
   "main": "src/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit --watch"
   },
