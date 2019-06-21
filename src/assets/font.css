@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap&subset=korean');
+
+@font-face {
+  font-family: 'mumblegrumbleibb';
+  src: url('./mumblegrumbleibb.woff2') format('woff2'),
+       url('./mumblegrumbleibb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mumblegrumbleiibb';
+  src: url('./mumblegrumbleiibb.woff2') format('woff2'),
+       url('./mumblegrumbleiibb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
