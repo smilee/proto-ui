@@ -15,8 +15,6 @@ const components = [
 // Declare install function executed by Vue.use()
 export function install (Vue) {
   components.forEach(component => {
-    if (install.installed) return
-    install.installed = true
     Vue.component(component.name, component)
   })
 }
