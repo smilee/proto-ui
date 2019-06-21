@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('~@/assets/font.css');
+@import url('../../../src/assets/font.css');
 .proto-button {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 18px;

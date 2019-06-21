@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('~@/assets/font.css');
+@import url('../../../src/assets/font.css');
 
 .proto-text {
   overflow: hidden;
