@@ -1,6 +1,6 @@
 {
   "name": "proto-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prototype UI",
   "main": "src/index.js",
   "files": [
@@ -9,7 +9,6 @@
     "packages"
   ],
   "scripts": {
-    "build": "vue-cli-service build --target lib --name proto-ui src/index.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit --watch"
   },
