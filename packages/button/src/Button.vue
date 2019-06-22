@@ -5,6 +5,7 @@
       type ? 'proto-button--' + type : '',
       size ? 'proto-button--' + size : ''
     ]"
+    :style="{ width, height }"
     @click="handleClick"
   >
     <span v-if="$slots.default"><slot /></span>
@@ -27,6 +28,14 @@ export default {
       validator (val) {
         return ['smaller', 'larger'].indexOf(val) > -1
       }
+    },
+    width: {
+      type: String,
+      default: '36px'
+    },
+    height: {
+      type: String,
+      default: '36px'
     }
   },
   methods: {
@@ -44,10 +53,10 @@ export default {
   font-size: 18px;
   background: none;
   &.proto-button--smaller {
-    font-size: 14px;
+    font-size: 1em;
   }
   &.proto-button--larger {
-    font-size: 24px;
+    font-size: 1.5em;
   }
   &.proto-button--default, &.proto-button--icon {
     border: 4px solid black;
@@ -60,6 +69,14 @@ export default {
     width: 36px;
     height: 36px;
     padding: 0px;
+    &.proto-button--smaller {
+      width: 28px;
+      height: 28px;
+    }
+    &.proto-button--larger {
+      width: 40px;
+      height: 40px;
+    }
   }
   &.proto-button--text {
     border: none;
