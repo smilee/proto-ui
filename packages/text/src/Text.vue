@@ -1,5 +1,8 @@
 <template>
-  <div class="proto-text" :style="{ width, height: actualHeight, fontSize: `${fontSize}px` }">
+  <div
+    class="proto-text"
+    :style="{ width, height: actualHeight, fontSize: `${fontSize}px` }"
+  >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida interdum semper. Fusce mollis ut felis a rutrum. Etiam auctor mi vitae sagittis imperdiet. Praesent placerat justo ligula, sed malesuada ligula ullamcorper non. Fusce scelerisque molestie maximus. Etiam at posuere nisl, at fringilla urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tristique nunc at elit pellentesque, non pharetra est pretium. Morbi semper finibus nisl, at tempor ante scelerisque ut. Nulla in magna vitae felis laoreet cursus. Sed aliquet elementum aliquam. Morbi pharetra nec quam vel suscipit. Nunc a elit nunc. Vestibulum sodales elit orci, maximus volutpat ligula mattis sed.
 
     Fusce sollicitudin quam iaculis, tincidunt arcu a, rhoncus elit. Curabitur consequat semper lacus. Morbi sit amet erat mattis, dignissim est quis, vehicula erat. Proin imperdiet feugiat mauris, pharetra tincidunt turpis viverra eu. Aliquam quam ipsum, pretium vitae luctus eu, suscipit in risus. Vestibulum venenatis nulla nec elit lobortis, eu iaculis metus dapibus. Sed at arcu augue.
