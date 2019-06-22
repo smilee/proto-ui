@@ -13,7 +13,7 @@ const components = [
 ]
 
 // Declare install function executed by Vue.use()
-export function install (Vue) {
+const install = function (Vue) {
   if (install.installed) return
   install.installed = true
   components.forEach(component => {
@@ -39,6 +39,7 @@ if (GlobalVue) {
 
 // To allow use as module (npm/webpack/etc.) export components
 export default {
+  install,
   Image,
   Text,
   Button,
