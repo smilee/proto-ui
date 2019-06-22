@@ -57,7 +57,9 @@ export default {
     }
   }
   &.proto-button--icon {
-    padding: 4px;
+    width: 36px;
+    height: 36px;
+    padding: 0px;
   }
   &.proto-button--text {
     border: none;
