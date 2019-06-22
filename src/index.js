@@ -39,6 +39,7 @@ if (GlobalVue) {
 
 // To allow use as module (npm/webpack/etc.) export components
 export default {
+  install,
   Image,
   Text,
   Button,
