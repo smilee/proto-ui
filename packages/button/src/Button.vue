@@ -56,6 +56,9 @@ export default {
       background: lightblue;
     }
   }
+  &.proto-button--icon {
+    padding: 4px;
+  }
   &.proto-button--text {
     border: none;
     box-shadow: none;
