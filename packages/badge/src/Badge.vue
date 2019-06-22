@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'ProtoBadge',
+  name: 'ProtoBadge'
 }
 </script>
 <style lang="scss" scoped>
