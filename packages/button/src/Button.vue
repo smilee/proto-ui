@@ -5,7 +5,7 @@
       type ? 'proto-button--' + type : '',
       size ? 'proto-button--' + size : ''
     ]"
-    :style="{ width, height }"
+    :style="{ width, height, fontSize }"
     @click="handleClick"
   >
     <span v-if="$slots.default"><slot /></span>
@@ -36,6 +36,10 @@ export default {
     height: {
       type: String,
       default: '36px'
+    },
+    fontSize: {
+      type: String,
+      default: '1.2em'
     }
   },
   methods: {
@@ -88,6 +92,8 @@ export default {
     }
   }
   &.proto-button--image {
+    width: unset;
+    height: unset;
     padding: 0;
     box-shadow: 2px 2px #aaaaaa;
     &:hover, &:active {
