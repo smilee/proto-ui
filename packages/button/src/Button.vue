@@ -31,11 +31,11 @@ export default {
     },
     width: {
       type: String,
-      default: '36px'
+      default: 'unset'
     },
     height: {
       type: String,
-      default: '36px'
+      default: 'unset'
     },
     fontSize: {
       type: String,
@@ -92,8 +92,6 @@ export default {
     }
   }
   &.proto-button--image {
-    width: unset;
-    height: unset;
     padding: 0;
     box-shadow: 2px 2px #aaaaaa;
     &:hover, &:active {
