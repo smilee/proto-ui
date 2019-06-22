@@ -14,6 +14,8 @@ const components = [
 
 // Declare install function executed by Vue.use()
 export function install (Vue) {
+  if (install.installed) return
+  install.installed = true
   components.forEach(component => {
     Vue.component(component.name, component)
   })
@@ -27,9 +29,9 @@ const plugin = {
 // Auto-install when vue is found (eg. in browser via <script> tag)
 let GlobalVue = null
 if (typeof window !== 'undefined') {
-  GlobalVue = install(window.Vue)
+  GlobalVue = window.Vue
 } else if (typeof global !== 'undefined') {
-  GlobalVue = install(global.Vue)
+  GlobalVue = global.Vue
 }
 if (GlobalVue) {
   GlobalVue.use(plugin)
