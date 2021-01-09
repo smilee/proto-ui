@@ -1,4 +1,27 @@
-# proto-ui
+# Proto UI
+
+Proto UI is a UI library for low-fidelity prototypes.
+
+## Component usage examples
+
+### Badge
+```html
+<proto-badge>
+  <proto-button type="text" size="larger">
+    Click
+  </proto-button>
+</proto-badge>
+```
+
+### Image
+```html
+  <proto-image width="100px" height="100px" />
+```
+
+### Text
+```html
+  <proto-text width="100px" :height="3" :fontSize="24" />
+```
 
 ## Project setup
 ```
@@ -15,19 +38,9 @@ yarn run serve
 yarn run build
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
 ### Lints and fixes files
 ```
 yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
 ```
 
 ### Customize configuration
