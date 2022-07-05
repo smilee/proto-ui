@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/smilee/proto-ui#readme",
   "dependencies": {
-    "core-js": "^2.6.5",
+    "core-js": "^2.6.12",
     "vue": "^2.6.10"
   },
   "devDependencies": {
